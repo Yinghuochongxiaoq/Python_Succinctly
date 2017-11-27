@@ -42,3 +42,12 @@ print('The lowest number is:{}'.format(lowest))
 contacts=[('David','5555'),('Tom','44444')]
 for (name,phone) in contacts:
     print("{}'s hone number is {}".format(name,phone))
+
+cities=[
+    ('Short Hills,NJ','07078'),
+    ('Fairfax Station,VA','22039'),
+    ('Weston,CT','06883'),
+    ('Great Falls,VA','22066')
+]
+for (city,zipCode) in cities:
+    print('The ZIP code for {} is {}'.format(city,zipCode))
